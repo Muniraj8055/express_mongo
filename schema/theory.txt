@@ -1,0 +1,19 @@
+// defining schema
+const studentSchema = mongoose.schema(name:string)
+
+
+
+// compiling status
+const Student = mongoose.model('Student', studentSchema)
+
+
+
+//creating Document
+const stu = new Student({
+    name:'muni'
+})
+
+
+
+//saving Document
+await.save()
